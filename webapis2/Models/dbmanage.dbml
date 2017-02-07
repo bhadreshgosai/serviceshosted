@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db124de19f000744518212a7130082cae3" Class="dbmanageDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=124de19f-0007-4451-8212-a7130082cae3.sqlserver.sequelizer.com;Initial Catalog=db124de19f000744518212a7130082cae3;Persist Security Info=True;User ID=rfsidnbzchurinyw" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="db124de19f000744518212a7130082cae3ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbllogin" Member="tbllogins">
+    <Type Name="tbllogin">
+      <Column Name="loginid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="emailid" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="mobilenumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
